@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "more_repairables",
+  "version": "${version}",
+  "name": "More Repairables",
+  "description": "Anvil can anvil more things.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/image.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.forestwolf99.more_repairables.client.MoreRepairablesClient"
+    ],
+    "main": [
+      "me.forestwolf99.more_repairables.MoreRepairables"
+    ]
+  },
+  "mixins": [
+    "more_repairables.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}
