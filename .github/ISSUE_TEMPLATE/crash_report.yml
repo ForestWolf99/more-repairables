@@ -1,5 +1,5 @@
 name: Crash Report
-description: "Experiencing a crash in Kilt?"
+description: "Experiencing a crash?"
 labels:
   - T-crash
   - S-needs triage
@@ -18,7 +18,7 @@ body:
         checklist below.
 
 
-        - [Have you searched around](https://github.com/KiltMC/Kilt/issues) to find any
+        - [Have you searched around](https://github.com/ForestWolf99/more-repairables/issues) to find any
         similar issues? If you find one that looks like what you are getting,
         consider contributing additional information to it instead. Make sure
         you are not opening a duplicate issue.
@@ -37,7 +37,7 @@ body:
         Please provide the exact version of the mod you are using. Every part of
         the version is important! If you do not know what version you are using,
         look at the file name in your `mods` folder.
-      placeholder: 'Example: 0.0.1.3+mc1.19.2'
+      placeholder: 'Example: 1.0.0'
     validations:
       required: true
   - type: textarea
